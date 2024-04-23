@@ -28,6 +28,7 @@ https://github.com/iamgauravbisht/loginandsignup/assets/97449434/5289a059-bcf5-4
 3. Login route : go to /v1/auth/login, make a post request with { username, password } in json format, in response it will send you a your auth token
    ``` bash
    {
+    message: "Login successful",
     token: token,
     }
    ```
